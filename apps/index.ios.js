@@ -12,12 +12,12 @@ import {
   View
 } from 'react-native';
 
-class AwesomeProject extends Component {
+class apps extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Plain View! Hello Andrew
+          Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
+AppRegistry.registerComponent('apps', () => apps);
